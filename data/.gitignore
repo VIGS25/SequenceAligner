@@ -1,3 +1,4 @@
+*.fq
 *.sam
 *.fq.gz
 *.fa
