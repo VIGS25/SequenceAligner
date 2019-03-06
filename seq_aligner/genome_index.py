@@ -44,8 +44,7 @@ class Indexer(object):
         print("[INFO]: Generating Index for the reference genome...")
         self._build_fn(forward=True)
 
-        print("[INFO]: Generating Suffix Array Index for the reverse complement of \
-            the reference genome...")
+        print("[INFO]: Generating Suffix Array Index for the reverse complement of \the reference genome...")
         self._build_fn(foward=False)
 
 
