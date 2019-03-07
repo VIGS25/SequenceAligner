@@ -40,7 +40,7 @@ class Indexer(object):
     def _build_fn(self, forward=True):
         raise NotImplementedError("Subclasses must implement for themselves.")
 
-    def generate_index(self, filename):
+    def generate_index(self):
         print("[INFO]: Generating Index for the reference genome...")
         self._build_fn(forward=True)
 
